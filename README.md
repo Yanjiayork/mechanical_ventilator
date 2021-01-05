@@ -1,1 +1,1 @@
-# mechanical_ventilator
+# Part of the data extracted from MIMIC III is adapted from Dr Niranjani Prasad at https://github.com/bee-hive/VentRL/tree/master/utils. After building the time Frame of the included patients on an hour basis, blood pressure and and SBT are also added in add_bloodpre.ipynb and add_sbt.ipynb. 
