@@ -112,7 +112,7 @@ class All_CNN_1d(GenericNeuralNet):
             
         with tf.variable_scope('h2_c'):
             h2_c = self.conv1d_softplus(h2_a, self.conv_patch_size, self.hidden3_units, self.hidden3_units, stride=1, wd=0.001)
-            h2_c = tf.nn.dropout(h2_c, rate = 0.5)
+            #h2_c = tf.nn.dropout(h2_c, rate = 0.5)
         
         
         last_layer_units = 128
